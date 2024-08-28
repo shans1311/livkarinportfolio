@@ -1,0 +1,454 @@
+/* src/components/subPages/GrunderStien.css */
+
+/* Base styling (for larger screens) */
+.grunderstien-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+.grunderstien-row {
+  display: flex;
+  align-items: center;
+  margin-top: 8rem;
+  margin: 2rem 6rem;
+}
+
+.grunderstien-text-left {
+  color: #AD1507;
+  font-family: 'Katibeh', cursive;
+  font-size: 30px;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl; /* Makes text vertical */
+  transform: rotate(180deg); /* Rotate text if needed */
+  margin: 0;
+}
+
+.grunderstien-line {
+  width: 1px; /* Thin line */
+  background-color: #000; /* Adjust color as needed */
+  height: 13rem; /* Adjust height as needed */
+  margin-right: 1rem; /* Space between the line and the text center */
+}
+
+.grunderstien-text-center {
+  text-align: left; /* Align text to the left */
+  padding: 0 1rem; /* Padding around the text */
+  max-width: 400px;
+  margin-top: 6rem;
+  font-family: 'Karla', sans-serif;
+
+}
+
+.grunderstien-text-center p {
+  margin: 0;
+}
+
+.grunderstien-image-container {
+  position: relative;
+  margin-left: 1rem; /* Space between the image and the text center */
+}
+
+.grunderstien-small-image {
+  position: absolute;
+  bottom: 4rem; /* Adjust as needed */
+  right: 2rem; /* Adjust as needed */
+  width: 25%; /* Adjust size as needed */
+  height: 22%; /* Adjust size as needed */
+}
+
+.grunderstien-small-image img {
+  width: 100%; /* Ensure image fits within container */
+  height: 100%; /* Ensure image fits within container */
+  object-fit: cover; /* Ensure image covers container */
+}
+
+.grunderstien-image img {
+  width: 100%; /* Ensure image fits within container */
+  max-height: 400px; /* Adjust as needed */
+  object-fit: cover; /* Ensure image covers container */
+}
+
+.grunderstien-subsection {
+  width: 90%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.grunderstien-subsection h1,
+.grunderstien-subsection h2 {
+  margin-top: 0;
+}
+
+.grunderstien-hr {
+  border: none;
+  border-top: 1px solid #ccc; /* Adjust color as needed */
+  margin: 2rem 0 0 0;
+}
+.grunderstien-new-subsection {
+  width: 90%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.grunderstien-new-subsection p, h2 {
+  text-align: left;
+  margin: 0.25rem;
+
+}
+
+.grunderstien-new-subsection h2 {
+  color:#AD1507
+}
+
+.grunderstien-upper,
+.grunderstien-lower {
+  max-width: 500px; /* Max width for paragraphs */
+  margin-bottom: 2rem; /* Space between sections */
+}
+
+.grunderstien-upper {
+  text-align: left; /* Offset to the left */
+  margin-right: auto; /* Push to the left side */
+}
+
+.grunderstien-lower {
+  text-align: right; /* Offset to the right */
+  margin-left: auto; /* Push to the right side */
+}
+
+.grunderstien-bordered-section {
+  width: 70%;
+  margin-top: 8rem;
+  padding: 1rem;
+}
+
+.grunderstien-bordered-section h2,
+.grunderstien-bordered-section p {
+  text-align: left;
+  margin: 0.25rem;
+}
+
+.grunderstien-bordertitle {
+  padding: 1rem;
+  padding-top: 2rem;
+  box-sizing: border-box;
+  border: 1px solid #000000; 
+  border-radius: 4px;
+  position: relative;
+  display: inline-flex;
+  
+}
+
+.grunderstien-bordered-section p {
+  color: #AD1507;
+  font-family: 'Katibeh';
+  font-size: 42px;
+
+}
+
+.squiggly-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.squiggly-underline::after {
+  content: "~~~~~~~~~~~~~~~~~~~~~~~";
+  position: absolute;
+  color:#000;
+  width: 100%;
+  height: 1.5rem;
+  /*background-image: url('path/to/squiggly-underline.png'); /* Path to your squiggly underline image */
+  bottom: -5px;
+  font-size: 0.7em;
+  font-weight: 400;
+  left: 0;
+  
+}
+
+/* New Centered Image and Large Title Styles */
+.grunderstien-centered-image-section {
+  width: 90%;
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.grunderstien-centered-image img {
+  max-width: 40%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.grunderstien-large-title {
+  text-align: center;
+  font-size: 48px;
+  margin-top: 2rem;
+  color: #AD1507;
+  font-family: 'Katibeh', cursive;
+} 
+
+.grunderstien-timeline-section {
+  position: relative;
+  width: 100%;
+  padding: 2rem 0;
+  margin: 4rem 0;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  background-color: #AD1507;
+  top: 0;
+  bottom: 0;
+}
+
+.timeline-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.timeline-item h3 {
+  color: #AD1507;
+  font-family: 'Katibeh', cursive;
+  font-size: 34px
+}
+
+.timeline-item p {
+  font-family: 'Karla', sans-serif; /* Use Karla font */
+  font-size: 18px;
+}
+
+.timeline-text-left,
+.timeline-text-right {
+  width: 45%;
+  margin-bottom: 8rem;
+  max-width: 400px;
+}
+
+.timeline-text-left {
+  text-align: left;
+  margin-left: 10rem;
+}
+
+.timeline-text-right {
+  text-align: left;
+  margin-right: 10rem;
+}
+
+.timeline-image-left,
+.timeline-image-right {
+  width: 45%;
+  padding: 1rem;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two images per row */
+  grid-gap: 1rem; /* Space between images */
+}
+
+.image-grid img {
+  width: 90%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* For text on left and image on right */
+.timeline-image-right {
+  order: 2;
+}
+
+.timeline-text-left {
+  order: 1;
+}
+
+/* For image on left and text on right */
+.timeline-image-left {
+  order: 1;
+}
+
+.timeline-text-right {
+  order: 2;
+}
+
+.timeline-p-extra {
+  color:#AD1507;
+  margin-left: 10rem;
+}
+
+.grunderstien-new-section {
+  width: 90%;
+  margin: 4rem 0;
+  text-align: left; /* Align text to the left */
+}
+
+.grunderstien-new-section .grunderstien-large-title {
+  text-align: center; /* Center the large title */
+  font-size: 48px;
+  margin-bottom: 3rem;
+  color: #AD1507;
+  font-family: 'Katibeh', cursive;
+}
+
+.grunderstien-new-section .grunderstien-subtitle {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  color: #000000;
+  font-family: 'Karla', sans-serif;
+}
+
+.grunderstien-new-section .grunderstien-paragraph {
+  font-size: 18px;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  color: #333333;
+  font-family: 'Karla', sans-serif;
+  margin-left: 5rem; /* Left offset for subtitles and paragraphs */
+}
+
+
+@media (max-width: 768px) {
+
+  .timeline-p-extra {
+    margin-left: 0;
+  }
+  .timeline-item {
+    flex-direction: row; /* Ensure items are aligned horizontally */
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .timeline-text-left,
+  .timeline-text-right {
+    text-align: left; /* Align text to the left */
+    width: 200px;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+
+
+  }
+
+  .timeline-image-left,
+  .timeline-image-right {
+    display:none;
+  }
+
+  /* Place the timeline line on the right side */
+  .timeline-line {
+    position: absolute;
+    right: 2rem;
+    left: auto;
+    top: 0;
+    bottom: 0;
+    margin-right: 2rem; /* Add margin to ensure spacing from screen edge */
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .image-caption {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .grunderstien-large-title {
+    font-size: 24px;
+  }
+}
+
+/* Existing responsive styles */
+
+@media (max-width: 768px) {
+  .grunderstien-bordered-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grunderstien-bordered-section .grunderstien-upper,
+  .grunderstien-bordered-section .grunderstien-lower {
+    text-align: center; /* Center text on small screens */
+    max-width: 100%; /* Full width on small screens */
+    margin-bottom: 3rem; /* Adjust margin for stacked layout */
+  }
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .grunderstien-row {
+    flex-direction: column; /* Stack items vertically */
+    margin-top: 2rem;
+  }
+
+  .grunderstien-text-left,
+  .grunderstien-text-center,
+  .grunderstien-image-container {
+    width: 100%; /* Full width for each section */
+    margin: 0;
+    padding: 1rem; /* Optional: add padding for spacing */
+  }
+
+
+.grunderstien-text-center {
+  width: 300px;
+
+}
+
+  .grunderstien-line {
+    height: 1px; /* Line height for vertical alignment when stacked */
+    width: 100%; /* Full width when stacked */
+    margin: 1rem 0; /* Margin between text and line */
+  }
+
+  .grunderstien-small-image {
+    position: relative; /* Adjust position for stacked layout */
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    margin-top: 1rem; /* Margin from main image */
+    bottom: auto; /* Reset bottom positioning */
+    right: auto; /* Reset right positioning */
+  }
+
+  .grunderstien-new-subsection {
+    display: flex;
+    flex-direction: column; /* Stack upper and lower parts vertically */
+    align-items: center;
+  }
+
+  .grunderstien-upper,
+  .grunderstien-lower {
+    text-align: center; /* Center text on small screens */
+    max-width: 100%; /* Full width on small screens */
+    margin-bottom: 3rem; /* Adjust margin for stacked layout */
+  }
+
+  .vertical-text {
+    display: none;
+  }
+  
+  .grunderstien-line {
+    display: none;
+  }
+}

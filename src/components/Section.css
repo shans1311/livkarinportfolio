@@ -1,0 +1,39 @@
+.section {
+    position: relative;
+    height: 100vh; /* Each section takes up the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+
+  
+.section_footer {
+    position: absolute;
+    bottom: 2rem;
+    width: 70%;
+    text-align: left;
+  }
+  
+  .section_footer hr {
+    border: none;
+    height: 1px;
+    background-color: #333;
+    margin: 0;
+  }
+  
+  .section_footer p {
+    margin: 10px 0 0;
+    color: #333;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .section_footer {
+      width: 90%; /* Adjust width for smaller screens */
+    }
+  }
+  

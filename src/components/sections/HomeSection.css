@@ -1,0 +1,94 @@
+.home-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* Upper Half */
+.home-upper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-left: 10rem; /* Offset the content to the left on larger screens */
+}
+
+/* Title */
+.home-title {
+  font-family: 'Katibeh', cursive;
+  font-size: 96px;
+  margin: 0;
+  color: #AD1507;
+}
+
+
+/* Underline */
+.home-underline {
+  width: 55%;
+  height: 1px;
+  background-color: black;
+  margin-top: -3rem;
+}
+
+/* Lower Half */
+.home-lower {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 10rem; /* Offset the content to the right on larger screens */
+}
+
+.home-image {
+  max-width: 400px;
+  max-height: 200px;
+  fill:antiquewhite;
+  margin-right: 2rem;
+}
+
+.home-text {
+  font-family: 'Karla', sans-serif; /* Use Karla font */
+  max-width: 500px;
+  text-align: left;
+  font-size: 18px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* Center align the upper half content on smaller screens */
+  .home-upper {
+    align-items: center;
+    margin-left: 0; /* Remove the left offset */
+    text-align: center;
+  }
+
+  .home-underline {
+    margin-top: 0;
+  }
+  /* Adjust title size for smaller screens */
+  .home-title {
+    font-size: 2rem; /* A more appropriate size for small screens */
+  }
+
+  /* Center align the lower half content */
+  .home-lower {
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0; /* Remove the right offset */
+    text-align: center;
+  }
+
+  /* Adjust spacing for the image */
+  .home-image {
+    margin: 0 0 1rem 0;
+  }
+
+  /* Make the text fit well on smaller screens */
+  .home-text {
+    max-width: 90%;
+  }
+}

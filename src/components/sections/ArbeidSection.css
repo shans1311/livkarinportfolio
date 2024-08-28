@@ -1,0 +1,183 @@
+.arbeid-section {
+    position: relative;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+  }
+  
+  .arbeid-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .arbeid-upper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 5rem;
+    padding-left: 2rem;
+  }
+  
+  .arbeid-title {
+    font-family: 'Katibeh', cursive;
+    font-size: 40px;
+    color: #AD1507;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .arbeid-project {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+  
+  .project-left {
+    flex: 1;
+  display: flex;
+  justify-content: center; /* Center image horizontally */
+  align-items: center; /* Center image vertically */
+  }
+
+  .project-left img {
+    max-height: 300px;
+    max-width:fit-content;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .project-right {
+    flex: 1;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; /* Ensure this is applied */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 6rem;
+
+  }
+  
+  .project-button {
+    background-color: #92c4d2;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .button-arrow {
+    font-size: 1.2rem;
+  }
+  
+  .text-content {
+    text-align: start;
+  }
+  
+  .text-layer-one {
+    font-family: 'Katibeh', cursive;
+    font-size: 18px;
+    color: #AD1507;
+    margin: 0;
+  }
+  
+  .text-layer-two {
+    font-family: 'Karla', sans-serif;
+    font-size: 42px;
+    margin: 0;
+  }
+  
+  .text-layer-three {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    color: #2B2B2B;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .studieoppdrag-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    margin: 1rem auto;
+    gap: 3rem; /* Adds space between items */
+    margin-bottom: 5rem;
+
+  }
+  
+  .studieoppdrag-item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: inherit;
+    margin: 1rem auto;
+  }
+  
+   /* Responsive design adjustments */
+   @media (max-width: 768px) {
+    .arbeid-content {
+      width: 100%;
+    }
+  
+    .arbeid-project, .studieoppdrag-item {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .studieoppdrag-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        margin: 1rem auto;
+        gap: 3rem; /* Adds space between items */
+        margin-bottom: 5rem;
+    
+      }
+  
+    .project-right {
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .project-image {
+      max-height: 200px; /* Adjusted for smaller screens */
+    }
+  
+    .text-layer-two {
+      font-size: 20px; /* Smaller font size for better fit */
+    }
+  
+    .project-button {
+      font-size: 12px;
+      padding: 0.5rem 1rem;
+    }
+  
+    .button-arrow {
+      font-size: 0.9rem;
+    }
+  }
+  

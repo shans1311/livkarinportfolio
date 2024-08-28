@@ -1,0 +1,161 @@
+/* Container for the entire "Om Meg" section */
+.ommeg-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    background-color: #ffffff;
+    padding: 2rem 0;
+  }
+  
+  /* Content wrapper with 80% of the viewport width */
+  .ommeg-content {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 5rem;
+  }
+  
+  /* Left section with 65% width */
+  .ommeg-left {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Upper left section */
+  .ommeg-upper-left {
+    margin-bottom: 2rem;
+    text-align: left; /* Align text completely to the left */
+  }
+  
+  .ommeg-title {
+    font-family: 'Katibeh', cursive;
+    font-size: 64px; /* Increased size of the title */
+    color: #AD1507;
+    margin-bottom: 1rem;
+  }
+  
+  .ommeg-paragraph {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: #2B2B2B;
+    max-width: 400px; /* Limit paragraph width to 500px */
+  }
+  
+  /* Lower left section */
+  .ommeg-lower-left {
+    display: flex;
+    justify-content: flex-end; /* Align content to the right within this section */
+    text-align: left; /* Text alignment */
+  }
+  
+  /* Right section with 30% width */
+  .ommeg-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-top: 6rem; /* Add padding to move the image down */
+  }
+  
+  .ommeg-image {
+    width: 100%;
+    border-radius: 8px;
+    max-height: 400px; /* Adjust as needed */
+    object-fit: cover;
+  }
+  
+  .image-caption {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    color: #2B2B2B;
+    margin-top: 0.5rem;
+    text-align: right;
+  }
+  
+  /* New Content Section */
+  .ommeg-additional-content {
+    width: 70%;
+    margin: 2rem auto;
+    text-align: right; /* Align title to the right */
+    margin-bottom: 5rem;
+  }
+  
+  .ommeg-additional-title {
+    font-family: 'Katibeh', cursive;
+    font-size: 64px; /* Increased size of the title */
+    color: #AD1507;
+    margin-bottom: 1rem;
+  }
+  
+  .ommeg-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ommeg-gallery-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .ommeg-gallery-image {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .ommeg-gallery-paragraph {
+    font-family: 'Karla', sans-serif;
+    font-size: 36px;
+    color: #AD1507;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .ommeg-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ommeg-left, .ommeg-right {
+      width: 100%;
+    }
+  
+    .ommeg-upper-left, .ommeg-lower-left {
+      text-align: center; /* Center align on smaller screens */
+    }
+  
+    .ommeg-image {
+      margin-top: 2rem;
+    }
+  
+    .image-caption {
+      text-align: center;
+    }
+  
+    .ommeg-additional-content {
+      width: 90%;
+    }
+  
+    .ommeg-gallery-row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ommeg-gallery-image {
+      width: 80%;
+      margin-bottom: 1rem;
+    }
+  }
+  
