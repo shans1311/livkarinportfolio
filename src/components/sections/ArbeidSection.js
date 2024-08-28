@@ -44,7 +44,7 @@ const ArbeidSection = ({ setCurrentPage }) => {
             <p className="arbeid-title">{project.section}</p>
             <div className="arbeid-project">
               <div className="project-left">
-                <img src={project.image} alt={`${project.subtitle} project image`} className="project-image" />
+                <img src={project.image} alt={`${project.subtitle}`} className="project-image" />
               </div>
               <div className="project-right">
                 <div className="text-content">
@@ -69,7 +69,7 @@ const ArbeidSection = ({ setCurrentPage }) => {
             {studieoppdrag.map((project) => (
               <div key={project.id} className="studieoppdrag-item">
                 <div className="project-left">
-                  <img src={project.image} alt={`${project.subtitle} project image`} className="project-image" />
+                  <img src={project.image} alt={`${project.subtitle}`} className="project-image" />
                 </div>
                 <div className="project-right">
                   <div className="text-content">

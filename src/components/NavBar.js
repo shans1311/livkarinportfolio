@@ -5,7 +5,7 @@ const NavBar = ({ setCurrentPage, isHomePage }) => {
   return (
     <header className="navbar">
       <div className="navbar__logo">
-        <a href="" onClick={() => setCurrentPage('home')}>Liv Karin Inoc Akselsen</a>
+        <a href="/" onClick={() => setCurrentPage('home')}>Liv Karin Inoc Akselsen</a>
       </div>
       <nav className={`navbar__links ${isHomePage ? '' : 'hidden'}`}>
         <a href="#arbeid">Arbeid</a>
