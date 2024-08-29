@@ -40,6 +40,8 @@
   align-items: center;
   justify-content: flex-end;
   margin-right: 15rem; /* Offset the content to the right on larger screens */
+  margin-bottom: 2rem;
+
 }
 
 .home-image {

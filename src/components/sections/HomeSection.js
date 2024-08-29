@@ -1,7 +1,6 @@
 import React from 'react';
 import '../Section.css';
 import "./HomeSection.css"
-import grunderstien from "../../public/grunderstien.png"; 
 
 
 const HomeSection = () => {

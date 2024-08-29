@@ -113,7 +113,7 @@ De som ønsker relevant arbeidserfaring tidligere i studieløpet, må som oftest
 
       <section className="large-image-section">
         <div className="large-image-wrapper">
-          <img src={samspillImage5} alt="Large Image" className="large-image" />
+          <img src={samspillImage5} alt="Large Image" className="large-image" style={{width: "70%"}}/>
         </div>
       </section>
 

@@ -2,7 +2,6 @@ import React from 'react';
 import './GrunderStien.css'; // Import CSS for styling
 import grunderstien from '../../public/grunderstien.png'; // Replace with the actual image path
 import nav from '../../public/nav.png'; // Replace with the actual image path
-import exampleImage from '../../public/grunderstien.png'; // Add the path to your new image
 import image1 from '../../public/grunder1.png'; // Replace with actual image paths
 import image2 from '../../public/grunder2.png';
 import image3 from '../../public/grunder3.png';
@@ -62,15 +61,6 @@ const Grunderstien = () => {
           <p className="squiggly-underline">En flytende test pilot</p>
         </div>
         
-      </section>
-
-      {/* New Centered Image Section */}
-      <section className="grunderstien-centered-image-section">
-        <div className="grunderstien-centered-image">
-          <img src={exampleImage} alt="Example Visual" />
-        </div>
-        <p className="grunderstien-large-title">Dette er vår reise visualisert!</p>
-        <hr className="grunderstien-hr" />
       </section>
 
       <section className="grunderstien-timeline-section">
@@ -136,8 +126,7 @@ På lik side hadde vi godt av å høre på deres livshistorier og hvor de kommer
       <div>
         <h3 className="grunderstien-subtitle">Å møte menneskene hvor de er</h3>
         <p className="grunderstien-paragraph">
-        My child read the word “bussy” on a internet comment, so he shoved his butt in the air and said “look at my bussy.” I asked where he heard that word and he said the first time was a YouTube video with Spider-Man pushing his bum around, saying it was his bussy. I hope you internet people are proud because my child is NINE. Why is this world so cold? 🥲
-
+        Det er ikke vits med en rigid og strukturert plan, når brukerne våres er vandt til varme og nære miljø. Bruker man mer tid på å lytte og være i samtale med dem, lærer man mer om brukerne enn om man gjemmer seg bak “en perfekt plan”. Det blir også lettere å gjøre feil antagelser over brukeren..
 
         </p>
       </div>
@@ -145,16 +134,14 @@ På lik side hadde vi godt av å høre på deres livshistorier og hvor de kommer
       <div>
         <h3 className="grunderstien-subtitle">Å teste fra starten og underveis</h3>
         <p className="grunderstien-paragraph">
-        My child read the word “bussy” on a internet comment, so he shoved his butt in the air and said “look at my bussy.” I asked where he heard that word and he said the first time was a YouTube video with Spider-Man pushing his bum around, saying it was his bussy. I hope you internet people are proud because my child is NINE. Why is this world so cold? 🥲
-
+        Hadde vi møtt målgruppen vår fra starten av, kunne vi allerede begynt å iterere og gjort endringer for informasjonsmøtene. 
 </p>
       </div>
 
       <div>
         <h3 className="grunderstien-subtitle">Verdien av kontakter og nettverk</h3>
         <p className="grunderstien-paragraph">
-        My child read the word “bussy” on a internet comment, so he shoved his butt in the air and said “look at my bussy.” I asked where he heard that word and he said the first time was a YouTube video with Spider-Man pushing his bum around, saying it was his bussy. I hope you internet people are proud because my child is NINE. Why is this world so cold? 🥲
-
+        Under prosjektet har vi fått masse hjelp fra engler rundt omkring i bydelene. Vi har fått utrolig mye hjelp av frivillige i frivilige organisasjone, i tillegg til samarbeidspartnere. Jeg har også lært verdien av en prosjektleder og prosjektmedarbeidere som er varme og imøtekommende og som ikke er redd for å ta kontakt.
 </p>
       </div>
     </section>

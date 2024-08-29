@@ -4,13 +4,9 @@ import "./KontaktSection.css"
 import "../subPages/Korky.css"
 import { FaLinkedin } from "react-icons/fa6";
 
-
-const linkedinLogoUrl = 'https://www.linkedin.com/in/liv-karin-akselsen-15232a201/';
-
-
 const KontaktSection = () => {
   return (
-    <section id="arbeid" className="kontakt-section">
+    <section id="kontakt" className="kontakt-section">
       <div className="arbeid-content">
         
       <section className="moodboard-section" style={{marginTop: "0rem"}}>

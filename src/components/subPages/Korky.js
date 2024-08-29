@@ -60,10 +60,9 @@ const Korky = () => {
         <div className="korky-content">
           {/* Left Subsection */}
           <div className="korky-text-right">
-            <h2>Innovative Design</h2>
+            <h2>Skisse</h2>
             <p>
-              I denne delen vil jeg vise deg to varianter av det innovative designet som ble utviklet for "Korky". Hver variant har sine unike egenskaper og visuelle uttrykk.
-            </p>
+            Under skissefasen, begynte jeg å tegne opp ulike dyr kombinert med korke- og flaskeåpnere. Dette var et konsept jeg ønsket å utforske mer rundt. Trenger produktet å stå slik at det kan være et pyntobjekt? Vil den ha en magnet for å henge på kjøleskapet? Dette ville jeg ta med videre til prototyping og testing.            </p>
           </div>
           {/* Right Subsection with Two Images */}
           <div className="korky-images-right">
@@ -277,7 +276,7 @@ const Korky = () => {
 
       <section className="centered-image-section">
         <div className="centered-image-wrapper">
-          <img src={section5photo1} alt="Centered Image" className="centered-image"/>
+          <img src={section5photo1} alt="Centered Image" className="centered-image" style={{width: "40%"}}/>
         </div>
       </section>
 
@@ -289,7 +288,7 @@ const Korky = () => {
 
       <section className="centered-image-section">
         <div className="centered-image-wrapper">
-          <img src={section5photo2} alt="Centered Image" className="centered-image"/>
+          <img src={section5photo2} alt="Centered Image" className="centered-image" style={{width: "40%"}}/>
         </div>
       </section>
 
@@ -302,7 +301,7 @@ const Korky = () => {
 
       <section className="centered-image-section">
         <div className="centered-image-wrapper">
-          <img src={section5photo3} alt="Centered Image" className="centered-image"/>
+          <img src={section5photo3} alt="Centered Image" className="centered-image" style={{width: "60%"}}/>
         </div>
       </section>
 
