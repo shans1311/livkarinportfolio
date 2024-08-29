@@ -1,29 +1,198 @@
-/* src/components/subPages/Grunderstien.css */
-
-.grunderstien-container {
-    display: flex;
-    flex-direction: column;
+/* Container for the whole Samspill page */
+.samspill-container {
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+    justify-content: center;
     align-items: center;
-    width: 100%;
-    padding: 2rem 0;
-  }
+}
+
+/* Section styling */
+.samspill-section {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered content container */
+.samspill-centered-content {
+  margin-top: 10rem;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Left section styling */
+.samspill-left {
+  padding: 2rem;
+  text-align: left;
+}
+
+.samspill-left h2 {
+  font-family: 'Katibeh', cursive;
+  font-size: 3rem;
+  color: #AD1507; /* Adjust color as needed */
+  margin: 0;
+}
+
+.samspill-underline {
+  width: 50%;
+  height: 1px;
+  background-color: #0c0b0b; /* Adjust color as needed */
+  margin-bottom: 2rem;
+}
+
+.samspill-left p {
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  max-width: 30rem; /* Adjust max-width as needed */
+}
+
+/* Right section styling */
+.samspill-right {
+  flex: 1;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.samspill-right img {
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+}
+
+.title-section {
+  margin-top: 15rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start; /* Aligns content to the left */
+}
+
+.title-title {
+  position: relative;
+  padding-left: 8rem; /* Adds some padding on the left to offset the title */
+}
+
+.title-title p {
+  font-family: 'Katibeh', cursive;
+  font-size: 5rem; /* Adjust as needed */
+  color: #000000; /* Red color */
+  margin: 0; /* Remove default margins */
+}
+
+
+/* Container for the new section */
+.left-right-text-section {
+  width: 80%; /* Take up 80% of the screen width */
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: 'Karla', sans-serif;
+
+}
+
+/* Upper Section - Offset Left Paragraph */
+.upper-section {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.upper-section p.offset-left {
+  text-align: left;
+  max-width: 500px;
+  padding-top: 2%;
+  padding-left: 10%; /* Creates the left offset */
+}
+
+/* Lower Section - Offset Right Paragraph with Title */
+.lower-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  max-width: 500px;
+  margin-left: auto; /* Aligns to the right */
+  padding-right:10%; /* Creates the right offset */
   
-  .grunderstien-subsection {
-    width: 90%;
-    max-width: 1200px; /* Optional: Set a max width to ensure content doesn't stretch too wide */
-    margin-bottom: 2rem;
-    padding: 1rem;
-    box-sizing: border-box;
-  }
-  
-  .grunderstien-subsection h1,
-  .grunderstien-subsection h2 {
-    margin-top: 0;
-  }
-  
-  .grunderstien-hr {
-    border: none;
-    border-top: 1px solid #ccc; /* Adjust color as needed */
-    margin: 2rem 0 0 0;
-  }
-  
+}
+
+.lower-section .section-title {
+  margin-bottom: 0px;
+  color:#AD1507;
+  font-size: 1.5rem;
+}
+
+.lower-section p.offset-right {
+  text-align: left;
+  max-width: 500px;
+}
+
+.persona-image-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.persona-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.persona-image {
+  max-width: 80%;
+  height: auto;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow behind the image */
+  transition: transform 0.3s ease; /* Adds a smooth transition for any transform effects */
+  object-fit: cover;
+}
+
+.persona-image:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Wrapper for the two columns */
+.samspill-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px auto;
+  max-width: 1200px; /* Max width to keep layout neat */
+  width: 100%;
+  gap: 20px; /* Adds space between the columns */
+}
+
+/* Left Column Styling */
+.left-column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 600px; /* Set a max-width to maintain a neat layout */
+}
+
+/* Right Column Styling */
+.right-column {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px; /* Set a max-width to maintain a neat layout */
+}
+
+/* Image in the right column */
+.right-column img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

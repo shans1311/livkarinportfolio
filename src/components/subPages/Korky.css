@@ -174,7 +174,8 @@
   }
 
 .korky-text-left-4 {
-    width: 30%;
+    width: 20%;
+    margin-left: 16rem;
 
   }
   
@@ -185,7 +186,7 @@
   
   .korky-text-right-4 {
     flex: 1;
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     position: relative;
@@ -194,9 +195,9 @@
   .korky-line-4 {
     position: absolute;
     left: 0;
-    width: 5px;
+    width: 2px;
     height: 100%;
-    background-color: #AD1507;
+    background-color: #070707;
   }
   
   .korky-text-right-4-content {
@@ -206,10 +207,11 @@
   }
   
   .korky-text-right-4-content p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #AD1507;
     margin-bottom: 1rem;
     text-align: left;
+    width:80%;
   }
 
   /* New Moodboard Section */
