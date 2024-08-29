@@ -1,0 +1,483 @@
+.korky-container {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .korky-section {
+    width: 90%;
+    margin-top: 6rem; /* Adds space between sections */
+    margin-bottom: 10rem;
+
+  }
+  
+  .korky-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .korky-text-left, .korky-text-right {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .korky-text-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .korky-text-left h2 {
+    color: #AD1507;
+    font-family: 'Katibeh', cursive;
+    font-size: 4rem;
+  }
+  
+  .korky-line {
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    background-color: #000;
+    top: 5rem;
+  }
+  
+  .korky-text-left p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: left;
+    max-width: 30rem;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .korky-image-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .korky-image-right img {
+    max-width: 70%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .korky-images-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .korky-images-right .korky-image-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .korky-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%; /* Ensure the images take up nearly half of the section width */
+  }
+  
+  .korky-images-right img {
+    width: 100%; /* Larger size for these images */
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow behind the image */
+    transition: transform 0.3s ease; /* Adds a smooth transition for any transform effects */
+  }
+  
+  .korky-images-right img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .korky-image-text {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    font-family: 'Karla', sans-serif;
+    text-align: left;
+  }
+  
+  /* Styles for the Third Section */
+  .korky-images-left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .korky-image-container-section3 {
+    width: 80%;
+    align-items: left;
+  }
+  
+  .korky-image-container-section3 img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow behind the image */
+    transition: transform 0.3s ease; /* Adds a smooth transition for any transform effects */
+  }
+  
+  .korky-image-container-section3 img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+
+  }
+  .korky-image-text-section3 {
+    text-align: left;
+    max-width: 400px;
+    margin-top: 0.5rem;
+  }
+  
+  /* Styles for the Fourth Section */
+  .korky-image-container-section4 {
+    margin-bottom: 1rem;
+  }
+  
+  .korky-image-container-section4 img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #555;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+  }
+  
+  .korky-image-text-section4 {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .korky-text-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .korky-text-right h3 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .korky-text-right p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+  }
+
+.korky-text-left-4 {
+    width: 30%;
+
+  }
+  
+  .korky-text-left-4 h3 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .korky-text-right-4 {
+    flex: 1;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .korky-line-4 {
+    position: absolute;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #AD1507;
+  }
+  
+  .korky-text-right-4-content {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .korky-text-right-4-content p {
+    font-size: 2rem;
+    color: #AD1507;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
+  /* New Moodboard Section */
+.moodboard-section {
+    margin-top: 15rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; /* Aligns content to the left */
+  }
+  
+  .moodboard-title {
+    position: relative;
+    padding-left: 8rem; /* Adds some padding on the left to offset the title */
+  }
+  
+  .moodboard-title h1 {
+    font-family: 'Katibeh', cursive;
+    font-size: 4rem; /* Adjust as needed */
+    color: #AD1507; /* Red color */
+    margin: 0; /* Remove default margins */
+  }
+
+  /* New Large Image Section */
+.large-image-section {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end; /* Aligns content to the right */
+  }
+  
+  .large-image-wrapper {
+    position: relative;
+  }
+  
+  .large-image {
+    width: 100%;
+    height: auto;
+    display: block; /* Removes bottom margin */
+  }
+  
+  .image-caption {
+    position: absolute;
+    bottom: 0;
+    left: -1rem; /* Adjust as needed to position the caption */
+    display: flex;
+    align-items: flex-end;
+    transform: rotate(-90deg);
+    transform-origin: left bottom;
+  }
+  
+  .image-caption p {
+    margin: 0;
+    font-size: 1.5rem; /* Adjust size as needed */
+    color: #000000; /* Match the color used elsewhere */
+    font-family: 'Karla', sans-serif;
+  }
+
+/* New Three-Part Section */
+.three-part-section {
+    margin-top: 8rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  
+  .three-part-content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .three-part-left, .three-part-right {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .three-part-left {
+    text-align: left;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .three-part-left h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .three-part-left p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .three-part-right {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right-image-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .right-image-container {
+    width: 48%; /* Adjust based on desired spacing between images */
+    position: relative;
+  }
+  
+  .right-image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease; /* Smooth zoom effect on hover */
+  }
+  
+  .right-image-container img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .right-image-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-90deg);
+    transform-origin: left bottom;
+    font-size: 1rem;
+    color: #AD1507;
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+  }
+  
+  .three-part-middle {
+    flex: 0 0 20px; /* Line thickness */
+    height: 100%;
+    position: relative;
+    padding: 2rem;
+
+  }
+  
+  .vertical-line {
+    height: 100%;
+    width: 10rem;
+    background-color: #000000; /* Adjust color as needed */
+  }
+  
+/* Centered Image Section */
+.centered-image-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  
+  .centered-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  
+  .centered-image {
+    max-width: 80%;
+    height: auto;
+    object-fit: cover;
+  }
+
+
+/* Offset Left Image Section */
+.offset-left-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem 0;
+  }
+  
+  .offset-left-image-wrapper {
+    width: 80%;
+    position: relative;
+    left: 0; /* Adjust this value to offset the image slightly to the left */
+  }
+  
+  .offset-image {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for better visibility */
+  }
+  
+  /* Offset Right Image Section */
+  .offset-right-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+  }
+  
+  .offset-right-image-wrapper {
+    width: 80%;
+    position: relative;
+    right: 0; /* Adjust this value to offset the image slightly to the right */
+  }
+
+  /* New Big Section */
+.big-section {
+    display: flex;
+    flex-direction: row;
+    margin: 8rem 0;
+  }
+  
+  .big-section-content {
+    display: flex;
+    width: 100%;
+  }
+  
+  .left-side,
+  .right-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left-upper,
+  .right-upper,
+  .left-lower,
+  .right-lower {
+    flex: 1;
+  }
+  
+  .left-upper,
+  .right-lower {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .left-upper h3,
+  .right-lower h3 {
+    margin: 0 0 10px;
+    text-align: left;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .left-upper p,
+  .right-lower p {
+    margin: 0;
+    text-align: left;
+    max-width: 500px;
+    font-family: 'Karla', sans-serif;
+
+  }
+  
+  .left-lower,
+  .right-upper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-lower img,
+  .right-upper img {
+    max-width: 80%;
+    height: auto;
+  }
+  
+
+

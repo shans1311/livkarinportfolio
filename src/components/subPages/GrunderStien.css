@@ -257,6 +257,8 @@
 .timeline-image-right {
   width: 45%;
   padding: 1rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow behind the image */
+  transition: transform 0.3s ease; /* Adds a smooth transition for any transform effects */
 }
 
 .image-grid {
@@ -270,6 +272,13 @@
   height: auto;
   border-radius: 8px;
   object-fit: cover;
+  
+}
+
+.timeline-image-left img:hover,
+.timeline-image-right img:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+
 }
 
 /* For text on left and image on right */
