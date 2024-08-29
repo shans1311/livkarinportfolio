@@ -28,6 +28,11 @@
     margin-left:5rem;
 }
 
+.navbar__logo a:hover {
+  color: #a33322;
+
+}
+
   
   .navbar__links a, .navbar__logo a{
     margin-right: 5rem;
