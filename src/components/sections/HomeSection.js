@@ -14,7 +14,6 @@ const HomeSection = () => {
         </div>
         <div className="home-lower">
         <p className="home-text">Student med en stor lidenskap for helhetlig og innovativ design. For øyeblikket tar jeg en Bachelor i Tjenestedesign.</p>
-          <img src={grunderstien} alt="Profile" className="home-image"/>
         </div>
       </div>
       <div className="section_footer">

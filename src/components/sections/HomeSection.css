@@ -31,7 +31,6 @@
   width: 55%;
   height: 1px;
   background-color: black;
-  margin-top: -3rem;
 }
 
 /* Lower Half */
@@ -40,7 +39,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-right: 10rem; /* Offset the content to the right on larger screens */
+  margin-right: 15rem; /* Offset the content to the right on larger screens */
 }
 
 .home-image {
@@ -54,7 +53,7 @@
   font-family: 'Karla', sans-serif; /* Use Karla font */
   max-width: 500px;
   text-align: left;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 /* Responsive Styles */

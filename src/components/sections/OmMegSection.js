@@ -60,7 +60,7 @@ const OmMegSection = () => {
 
       <div className="section_footer">
         <hr />
-        <p>Om Meg</p>
+        <p>Kontakt</p>
       </div>
     </section>
   );

@@ -1,7 +1,6 @@
 /* Container for the whole Samspill page */
 .samspill-container {
   width: 100%;
-  height: 100vh; /* Full viewport height */
   display: flex;
   flex-direction: column; /* Stack sections vertically */
     justify-content: center;
@@ -175,6 +174,7 @@
 
 /* Left Column Styling */
 .left-column {
+  padding-left: 8%;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -185,14 +185,87 @@
 .right-column {
   display: flex;
   flex: 1;
+  flex-direction: column;
+
   justify-content: center;
   align-items: center;
   max-width: 600px; /* Set a max-width to maintain a neat layout */
 }
 
 /* Image in the right column */
-.right-column img {
-  width: 100%;
+.column-image {
+  width: 70%;
   height: auto;
   object-fit: cover;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow behind the image */
+  transition: transform 0.3s ease; /* Adds a smooth transition for any transform effects */
+  object-fit: cover;
+}
+
+.column-image:hover {
+  transform: scale(1.50); /* Slight zoom effect on hover */
+
+}
+
+.column-item-wrapper {
+  margin-bottom: 4rem;
+}
+
+.column-section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start; /* Aligns content to the left */
+  margin-top: 4rem;
+}
+
+.column-title {
+  position: relative;
+}
+
+.column-title p {
+  font-family: 'Katibeh', cursive;
+  font-size: 3rem; /* Adjust as needed */
+  color: #AD1507; /* Red color */
+  margin: 0; /* Remove default margins */
+}
+
+.result-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  margin-bottom: 6rem;
+  height: 15rem; /* Ensures full viewport height for vertical centering, adjust if needed */
+}
+
+.result-button {
+  background-color: #92c4d2;
+  border: none;
+  border-radius: 8px;
+  padding: 2rem 3rem;
+  font-size: 26px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-family: 'Karla', sans-serif;
+}
+
+.end-title p {
+  font-family: 'Katibeh', cursive;
+  font-size: 2rem; /* Adjust as needed */
+  color: #AD1507; /* Red color */
+  margin: 0; /* Remove default margins */
+}
+
+.end-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto; /* Aligns to the right */
+    padding-right:10%; /* Creates the right offset */
+    text-align: left;
+    
 }

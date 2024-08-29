@@ -1,0 +1,45 @@
+/* NewSection.css */
+.kontakt-section {
+    position: relative;
+    height: 80vh; /* Each section takes up the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.new-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center;     /* Centers content horizontally */
+    margin-bottom: 15rem;
+}
+
+.new-section-content {
+    text-align: center; /* Center text horizontally within the container */
+    font-size: x-large;
+}
+
+.paragraph-row {
+    margin: 0.5rem 0; 
+}
+
+.linkedin-row {
+    margin-top: 1rem; /* Space above the LinkedIn logo */
+    font-size: 58px;
+}
+
+.linkedin-link {
+    text-decoration: none; /* Remove underline from link */
+    color: inherit;        /* Inherit color from parent */
+}
+
+.linkedin-icon {
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.linkedin-icon:hover {
+    transform: scale(1.2); /* Slightly enlarge the icon on hover */
+}

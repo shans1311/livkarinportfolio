@@ -11,7 +11,23 @@ body {
   text-align: center;
 }
 
+p {
+  font-family: 'Karla', sans-serif; /* Use Karla font */
+
+}
+
 main {
   width: 100%;
 }
+
+img {
+  transition: transform 0.3s ease; /* Adds a smooth transition for any transform effects */
+  object-fit: cover;
+}
+
+img:hover {
+  transform: scale(1.20); /* Slight zoom effect on hover */
+
+}
+
 
